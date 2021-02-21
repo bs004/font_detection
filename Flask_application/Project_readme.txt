@@ -18,6 +18,7 @@ Post request at Postman :
 	Using Yolo to directly identify texts is not fruitful as Anchors play an important role in identifying the font.
 	So I've used pytesseract to identify a group of 2 tokens and classify them, 
 	which is working well but certrainly better results can be achieved with experimental design.
+	I've added sample outputs from my models in image and json format both.
 
 7. We can add more classes easily by adding more labels in Font dictionary and
    increasing the nodes of last layer of our model. 
